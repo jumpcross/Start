@@ -8,9 +8,9 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.charlie.Customer;
 import com.charlie.dao.CustomerDao;
-import com.charlie.util.mail.MailUtil;
+import com.charlie.entity.Customer;
+import com.charlie.util.MailUtil;
 
 
 @Controller

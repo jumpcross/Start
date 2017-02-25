@@ -4,7 +4,7 @@ import java.util.List;
 
 import org.springframework.data.repository.CrudRepository;
 
-import com.charlie.Customer;
+import com.charlie.entity.Customer;
 
 public interface CustomerDao extends CrudRepository<Customer, Long> {
 

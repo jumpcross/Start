@@ -1,4 +1,4 @@
-package com.charlie;
+package com.charlie.business;
 
 import java.util.Date;
 import java.util.List;
@@ -10,8 +10,9 @@ import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
 import com.charlie.dao.FamilyDao;
-import com.charlie.util.format.FormatUtil;
-import com.charlie.util.mail.MailUtil;
+import com.charlie.entity.FamilyMember;
+import com.charlie.util.FormatUtil;
+import com.charlie.util.MailUtil;
 
 
 @Component

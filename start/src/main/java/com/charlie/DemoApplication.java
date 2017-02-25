@@ -12,6 +12,8 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 import com.charlie.dao.CustomerDao;
 import com.charlie.dao.FamilyDao;
+import com.charlie.entity.Customer;
+import com.charlie.entity.FamilyMember;
 
 @SpringBootApplication
 @EnableScheduling

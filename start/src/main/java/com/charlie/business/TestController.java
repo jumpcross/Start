@@ -1,4 +1,4 @@
-package com.charlie;
+package com.charlie.business;
 
 import java.util.List;
 
@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import com.charlie.dao.CustomerDao;
+import com.charlie.entity.Customer;
 
 
 @Controller

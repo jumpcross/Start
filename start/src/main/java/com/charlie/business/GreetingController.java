@@ -1,4 +1,4 @@
-package com.charlie;
+package com.charlie.business;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

@@ -1,4 +1,4 @@
-package com.charlie;
+package com.charlie.entity;
 
 
 import java.util.Date;

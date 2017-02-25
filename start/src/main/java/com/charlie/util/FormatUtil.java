@@ -1,4 +1,4 @@
-package com.charlie.util.format;
+package com.charlie.util;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

@@ -5,7 +5,7 @@ import java.util.List;
 
 import org.springframework.data.repository.CrudRepository;
 
-import com.charlie.FamilyMember;
+import com.charlie.entity.FamilyMember;
 
 public interface FamilyDao extends CrudRepository<FamilyMember, Long> {
 	 List<FamilyMember> findByBirthDayBetween(Date one, Date two);

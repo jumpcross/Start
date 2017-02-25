@@ -1,4 +1,4 @@
-package com.charlie.util.mail;
+package com.charlie.util;
 
 
 import org.assertj.core.internal.Strings;
